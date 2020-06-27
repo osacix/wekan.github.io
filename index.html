@@ -9,6 +9,7 @@
     <link rel="mask-icon" href="/wekan-150.svg">
     <link rel="stylesheet" type="text/css" href="main.css">
     <link href='https://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+    <link rel="alternate" type="application/atom+xml" title="RSS Feed for Wekan ChangeLog" href="https://github.com/wekan/wekan/releases.atom" />
   </head>
   <body>
 
@@ -16,7 +17,7 @@
       <nav>
         <a href="https://wekan.team/commercial-support/">Commercial Support</a>
         <a href="https://www.transifex.com/wekan/wekan">Translations</a>
-        <a href="https://wekan.github.io/api/">API</a>
+        <a href="https://github.com/wekan/wekan/wiki/New-card-with-Python3-and-REST-API">API</a>
         <a href="https://github.com/wekan/wekan/issues">Feature Requests and Bugs</a>
         <a href="https://community.vanila.io/wekan">Wekan Community Chat PWA</a>
         <!-- <a href="https://chat.vanila.io/channel/wekan">Old Wekan RocketChat #wekan</a> -->
@@ -31,25 +32,61 @@
 
     <h1 class="brand">
       <img src="wekan-logo.svg" alt="Wekan" />
-      <span class="sub-title"><em>Open-Source</em> kanban.
+      <span class="sub-title"><em>Open-Source</em> kanban
       </span>
     </h1>
 
     <div class="action-buttons">
-      <!-- <a class="button" style="color: green;" href="https://sivut.sandcats.io/shared/iP4EfKrOnrcYOzDGVUGGNO1ua-EVeMCSTul4Fk21AUL">Survey 2020-01</a> -->
-      <a class="button" href="https://github.com/wekan/wekan/wiki/Platforms">Download for x64, RasPi3/4, etc<span class="version-number">(v3.70)</span></a>
-      <a class="button" href="https://github.com/wekan/wekan/wiki/Test-Edge">Test Edge<span class="version-number">(v3.70)</span></a>
       <a class="button" href="https://github.com/wekan/wekan/blob/master/CHANGELOG.md">ChangeLog</a>
+      <a class="button" href="https://github.com/wekan/wekan/releases.atom"><img src="feed-icon.svg" width="20px" height="20px" alt="RSS Feed for Wekan ChangeLog"></a>
       <a class="button" href="https://github.com/wekan/wekan/wiki/Features">Features</a>
+      <a class="button" href="https://github.com/wekan/wekan/wiki/Time-Tracking">Time Tracking</a>
       <!-- <a class="button" href="https://demo.sandstorm.io/appdemo/m86q05rdvj14yvn78ghaxynqz7u2svw6rnttptxx49g1785cdv1h">Try on Sandstorm</a> -->
       <a class="button" href="https://boards.wekan.team/b/D2SzJKZDS4Z48yeQH/wekan-open-source-kanban-board-with-mit-license">Roadmap (read-only)</a>
-      <a class="button" style="color: red;" href="https://github.com/wekan/wekan-snap/wiki/CentOS-7">DO NOT USE SNAP ON CENTOS 7 and RHEL7, use Docker or bundle instead</a>
-      <!-- <a class="button" href="https://github.com/meteor/meteor/blob/devel/Roadmap.md">Meteor Roadmap</a>
-           <a class="button" href="https://www.youtube.com/watch?v=utVONxUrres">YouTube: Meteor NYC Meetup 2020-01-07</a>
-           <a class="button" href="https://forums.meteor.com/t/the-new-meteor-roadmap-is-out/51086/26">Forum post about Meteor Roadmap</a>
-      -->
+      <a class="button" style="color: green;" href="https://sivut.sandcats.io/shared/iP4EfKrOnrcYOzDGVUGGNO1ua-EVeMCSTul4Fk21AUL">Survey 2020-01</a>
+      <a class="button" href="https://www.linuxformat.com"><img src="featured-in-linux-format.png" width="auto" height="80" /> June 2020 Issue 263</a>
+    </div>
 
+    <h1 class="brand">
+      <span class="sub-title">Client: Javascript enabled mobile or desktop webbrowser.
+      </span>
+    </h1>
 
+    <div class="action-buttons">
+
+      <a class="button" href="https://github.com/wekan/wekan/wiki/Browser-compatibility-matrix">Browser compatibility matrix</a>
+      <a class="button" href="https://github.com/wekan/wekan/wiki/PWA">Install as PWA app icon that launches fullscreen on iOS, Android etc.
+      There is no offline sync currently</a>
+      <a class="button" href="https://github.com/wekan/wekan/wiki/Android">If you need real mobile offline, install Server for Android arm64/x64. Note that if you
+      lose your phone, you lose all data it has locally</a>
+    </div>
+
+    <h1 class="brand">
+      <span class="sub-title">Download Server <span class="version-number">v4.17</span>
+      </span>
+    </h1>
+
+    <div class="action-buttons">
+      <a class="button" style="color: green;" href="https://github.com/wekan/wekan/wiki/Scaling">Scaling</a>
+      <a class="button" href="https://github.com/wekan/wekan-snap/wiki/Install">Snap x64 automatic updates</a>
+      <a class="button" href="https://github.com/wekan/wekan-snap/wiki/Many-Snaps-on-LXC">Many Snaps on LXC</a>
+      <a class="button" href="https://github.com/wekan/wekan/wiki/Sandstorm">Sandstorm x64</a>
+      <a class="button" href="https://github.com/wekan/wekan/wiki/Docker">Docker x64</a>
+      <a class="button" href="https://github.com/wekan/wekan/wiki/UCS">UCS VM x64</a>
+      <a class="button" href="https://github.com/wekan/wekan/wiki/Windows">Windows</a>
+      <a class="button" href="https://github.com/wekan/wekan/wiki/Mac">Mac</a>
+      <a class="button" href="https://github.com/wekan/wekan/wiki/Raspberry-Pi">Bash/Service x64, RasPi3/4/arm64 64bit, OpenVZ/OVH/Kimsufi</a>
+      <a class="button" href="https://github.com/wekan/wekan/wiki/s390x">s390x RHEL8 and RHEL7</a>
+      <a class="button" href="https://github.com/wekan/wekan/wiki/Oracle-Identity-Cloud">Oracle Identity Cloud</a>
+      <a class="button" href="https://github.com/wekan/wekan/wiki/OpenShift">OpenShift</a>
+      <a class="button" href="https://github.com/wekan/wekan/wiki/FreeBSD">FreeBSD</a>
+      <a class="button" href="https://github.com/wekan/wekan/wiki/SmartOS">SmartOS</a>
+      <a class="button" href="https://github.com/wekan/wekan/wiki/Qnap-NAS">Qnap NAS</a>
+      <a class="button" href="https://github.com/wekan/wekan/wiki/Platforms#production-saas-wekan-ready-paid-services-just-start-using">SAAS</a>
+      <a class="button" href="https://github.com/wekan/wekan/wiki/Install-latest-Wekan-release-on-Uberspace">Uberspace</a>
+      <a class="button" href="https://github.com/wekan/wekan-snap/wiki/CentOS-7">CentOS 7 and RHEL7 and newer</a>
+      <a class="button" href="https://github.com/wekan/wekan/wiki/Test-Edge">Test Edge<!-- <span class="version-number">(v3.x)</span> --></a>
+      <a class="button" href="https://forum.snapcraft.io/t/running-snaps-on-wsl2-insiders-only-for-now/13033">Test Snap on WSL2 Insiders</a>
     </div>
 
     <br />
