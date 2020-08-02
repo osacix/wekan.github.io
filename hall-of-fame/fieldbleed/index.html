@@ -1,0 +1,359 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Wekan — Hall of Fame / Fieldbleed</title>
+  <link rel="icon" href="../../wekan-favicon.png">
+  <link rel="stylesheet" type="text/css" href="../../main.css">
+  <link href='https://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="../../font-awesome/css/font-awesome.min.css">
+</head>
+
+<body>
+
+  <img vAlign="center" src="../hof.svg" alt="Hall of Fame image from https://openclipart.org/detail/120343/trophy"
+    width="300px" height="auto" />
+  <br />
+
+  <div class="action-buttons">
+    <a class="button" href="https://wekan.github.io/hall-of-fame">Back to Hall of Fame Contents</a>
+    <a class="button" href="https://wekan.github.io">Back to Wekan Website</a>
+  </div>
+
+  <div class="hof">
+    <h1 class="hof">Contents / Fieldbleed</h1>
+
+    <table border="1" margin="0" padding="10px" width="100%">
+
+      <tr>
+        <th width="10%">CVE</th>
+        <th width="10%">Vulnerability name</th>
+        <th width="10%">Date</th>
+        <th width="20%">
+          <a href="https://github.com/wekan/wekan/blob/master/SECURITY.md">Responsible Security Disclosure</a>
+          by
+        </th>
+        <th width="40%">Vulnerabilities</th>
+      </tr>
+
+      <tr>
+        <td valign="top">
+          TODO
+        </td>
+        <td valign="top"><b>Frieldbleed</b> <h2><i class="fa fa-pencil-square-o" aria-hidden="true"></i> <i class="fa fa-tint" style="color: red;" aria-hidden="true"></i></h2></td>
+        <td valign="top">2020-03-23 17.03 EET</td>
+        <td valign="top">
+          <b>Cyb3rjunky</b> and <b>swsjona</b></a><br />
+          <img src="../GoldStar.png" width="30px" height="auto" />
+          <img src="../GoldStar.png" width="30px" height="auto" />
+          <img src="../GoldStar.png" width="30px" height="auto" /><br />
+          Did send report
+        </td>
+        <td valign="top">
+          <ul>
+            <li>Javascript saved to field is run when page is reloaded</li>
+          </ul>
+        </td>
+      </tr>
+
+    </table>
+  </div>
+
+  <br />
+  <br />
+
+  <div class="hof">
+    <table border="1" margin="0" padding="10px" width="100%">
+
+      <tr>
+        <th width="5%">Timeline</th>
+        <th width="60%">Details</th>
+      </tr>
+
+      <tr>
+        <td vAlign="top"><b>2020-03-23 17:03 EET</b></td>
+        <td vAlign="top">
+          Report received.<br />
+          <br />
+          Cyb3rjunky wrote:<br /><br />
+          Hi Wekan Team,<br />
+          I want to report a security vulnerability with the Wekan platform.
+          This is a persistent XSS bug appears globally across the platform.
+          The input and output for card names, checklist items, subtask items,
+          comments,..... are not sanitized, the attacker can pass a javascript
+          payload to those parameters to exploit the vulnerability in order to
+          perform: cookie-capture, redirect phishing, deface lead to DOS.
+          This bug is tested on the newest version of wekan, i suspect it affects
+          all the earlier version.<br /><br />
+
+          Here is my current setup:<br /><br />
+
+          <table>
+            <tr>
+              <td vAlign="top">
+                <b>Wekan Version</b>
+              </td>
+              <td vAlign="top">
+                3.84.0
+              </td>
+            </tr>
+
+            <tr>
+              <td vAlign="top">
+                <b>Meteor version</b>
+              </td>
+              <td vAlign="top">
+                1.10.1
+              </td>
+            </tr>
+
+            <tr>
+              <td vAlign="top">
+                <b>Node version</b>
+              </td>
+              <td vAlign="top">
+                12.16.1
+              </td>
+            </tr>
+
+            <tr>
+              <td vAlign="top">
+                <b>MongoDB version</b>
+              </td>
+              <td vAlign="top">
+                3.2.22
+              </td>
+            </tr>
+
+            <tr>
+              <td vAlign="top">
+                <b>MongoDB storage engine</b>
+              </td>
+              <td vAlign="top">
+                wiredTiger
+              </td>
+            </tr>
+
+            <tr>
+              <td vAlign="top">
+                <b>MongoDB Oplog enabled</b>
+              </td>
+              <td vAlign="top">
+                true
+              </td>
+            </tr>
+
+            <tr>
+              <td vAlign="top">
+                <b>OS Type</b>
+              </td>
+              <td vAlign="top">
+                Linux
+              </td>
+            </tr>
+
+            <tr>
+              <td vAlign="top">
+                <b>OS Platform</b>
+              </td>
+              <td vAlign="top">
+                linux
+              </td>
+            </tr>
+
+            <tr>
+              <td vAlign="top">
+                <b>OS Arch</b>
+              </td>
+              <td vAlign="top">
+                x64
+              </td>
+            </tr>
+
+            <tr>
+              <td vAlign="top">
+                <b>OS Release</b>
+              </td>
+              <td vAlign="top">
+                4.15.0-88-generic
+              </td>
+            </tr>
+
+            <tr>
+              <td vAlign="top">
+                <b>OS Uptime</b>
+              </td>
+              <td vAlign="top">
+                25 days, 3 hours, 22 minutes, 23 seconds
+              </td>
+            </tr>
+
+            <tr>
+              <td vAlign="top">
+                <b>OS Load Average</b>
+              </td>
+              <td vAlign="top">
+                0.00, 0.05, 0.06
+              </td>
+            </tr>
+
+            <tr>
+              <td vAlign="top">
+                <b>OS Total Memory</b>
+              </td>
+              <td vAlign="top">
+                8 GB
+              </td>
+            </tr>
+
+            <tr>
+              <td vAlign="top">
+                <b>OS Free Memory</b>
+              </td>
+              <td vAlign="top">
+                3 GB
+              </td>
+            </tr>
+
+            <tr>
+              <td vAlign="top">
+                <b>OS CPU Count</b>
+              </td>
+              <td vAlign="top">
+                4
+              </td>
+            </tr>
+
+          </table>
+          <br />
+
+          <b>Step to reproduce</b><br />
+          <ol>
+            <li>Add a new card</li>
+            <li>Put the name: &lt;img src=x onerror=alert(1)&gt;</li>
+            <li>The payload is saved and executed everytime the page is loaded</li>
+          </ol>
+
+          <img src="screenshot-popup.png" width="100%" height="auto"><br /><br />
+
+          The remediation for this vulnerability is to sanitize the user input to make sure no malice code is saved to
+          the server.
+          Integrate with a whitelist if it is neccessary for user to input javascript value.<br /><br />
+
+          This vulnerability is not critical however could be used to deny of service or to steal information from
+          users.
+          Please act upon notice.<br /><br />
+
+          Thank you.<br />
+          Cyb3rjunky<br /><br />
+
+        </td>
+      </tr>
+
+      <tr>
+        <td vAlign="top">
+          <b>2020-03-23</b>
+        </td>
+        <td vAlign="top">
+          <a href="https://github.com/wekan/wekan/blob/master/CHANGELOG.md#v385-2020-03-23-wekan-release">Wekan
+            v3.85</a> released by xet7 with fix:
+          "Fix XSS bug reported today 4 hours ago by Cyb3rjunky. Logged in users could run javascript in input fields.
+          This affects Wekan versions v3.12-v3.84. In Wekan v3.12 there was changes for XSS filter to allow inserting
+          images,
+          videos etc on comment WYSIWYG editor so features related to that are now removed.
+          After this fix, Javascript in input fields is not executed. Thanks to Cyb3rjunky and xet7."
+        </td>
+      </tr>
+
+      <td vAlign="top"><b>2020-05-24</b></td>
+      <td vAlign="top">
+        Report received.<br />
+        <br />
+        swsjona wrote:<br /><br />
+
+        <h3>[Urgent] XSS in any boards</h3>
+
+        Name: S.W. Sajeth Jonathan<br />
+        Twitter: @swsjona<br />
+        Bug type: Stored XSS<br />
+        Domain: Self Hosted Droplet<br />
+        Severity: Medium<br /><br />
+
+        <h3>Summary</h3>
+        <p>A Stored XSS can be performed in any board by adding an IFRAME XSS Payload as a List name.</p>
+
+        <img src="screenshot-swsjona-1.png" width="60%" height="auto" />
+
+        <h3>Steps to Reproduce</h3>
+        <ol>
+          <li>In account A (User) create a new board and add a new list with the payload
+            &#x3C;iframe/src=javascript:alert(document.cookie)&#x3E;</li>
+          <li>Archive or delete the List (an attacker can do this to hide the swimlane)</li>
+          <li>Request account B (Admin/User) to be added to the board</li>
+          <li>Accept the request from account</li>
+        </ol>
+
+        <h3>Explanation</h3>
+        <p>The XSS happens since the payload is being rendered in the Activity tab.</p>
+
+<table border="0" padding="10">
+  <tr>
+    <td width="50%"><img src="screenshot-swsjona-2.png" width="100%" height="auto" /></td>
+    <td width="50%"><img src="screenshot-swsjona-3.png" width="100%" height="auto" /></td>
+  </tr>
+</table>
+
+        <h3>Impact</h3>
+        <p>An XSS attack allows an attacker to execute arbitrary JavaScript in the context of the attacked website and
+          the attacked user.
+          This can be abused to steal session cookies, perform requests in the name of the victim or for phishing
+          attacks.</p>
+
+        <h3>Supporting Material</h3>
+        <p><img src="screenshot-swsjona-4.png" width="100%" height="auto" /></p>
+
+        <p>
+          I am not familiar with Node.js, therefore I cannot provide the solution code.
+          But it is clear here, the rendered arbitrary code in the activity session causes this XSS. Therefore, the input has to be sanitized to prevent XSS.</p>
+
+          <p>I hope I have written a clear report. If there are any questions or doubts, feel free to contact me. I'll be happy to clarify more.</p>
+          
+          <p>Best,<br />
+          Sajeth Jonathan</p>
+        </p>
+      </td>
+      </tr>
+
+      <tr>
+        <td vAlign="top">
+          <b>2020-06-08</b>
+        </td>
+        <td vAlign="top">
+          <a href="https://github.com/wekan/wekan/blob/master/CHANGELOG.md#v412-2020-06-08-wekan-release">Wekan
+            v4.18</a> released by xet7 with fix:
+          "Fix XSS bug reported 2020-05-24 by <a href="https://twitter.com/swsjona">swsjona</a>.
+          Logged in users could run javascript in input fields. This was partially fixed at v3.85, but at some fields
+          XSS was still possible.
+          This affects at least Wekan versions v3.12-v4.12. After this fix, Javascript in input fields is not executed.
+          Thanks to swsjona, marc1006 and xet7."
+        </td>
+      </tr>
+
+    </table>
+  </div>
+
+  <br />
+  <br />
+
+  <div class="action-buttons">
+    <a class="button" href="https://wekan.github.io/hall-of-fame">Back to Hall of Fame Contents</a>
+    <a class="button" href="https://wekan.github.io">Back to Wekan Website</a>
+  </div>
+
+  <h1>
+    <br />
+  </h1>
+
+</body>
+
+</html>
